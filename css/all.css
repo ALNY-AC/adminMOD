@@ -1,0 +1,10 @@
+	* {
+				padding: 0;
+				margin: 0;
+				z-index: 1;
+				font-family: "微软雅黑";
+			}
+			
+			body {
+				background-color: #e5e6e6;
+			}

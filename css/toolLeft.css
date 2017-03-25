@@ -1,0 +1,61 @@
+	.toolLeft {
+		/*background-color: #2a3542;*/
+		background-color: #101010;
+		width: 210px;
+		height: 100%;
+		position: fixed;
+		overflow: auto;
+		/*overflow: hidden;*/
+		/*outline: none;
+				display: inline;*/
+	}
+	
+	.toolLeft ul li {
+		list-style: none;
+		padding: 0 10px;
+	}
+	
+	.toolLeft ul li a {
+		font-size: 12px;
+		display: block;
+		text-decoration: none;
+		color: #999999;
+		padding: 15px 0 15px 10px;
+		border-radius: 5px;
+		font-weight: bold;
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+	}
+	
+	.toolLeft ul li a:hover {
+		/*color: #72d0eb;*/
+		color: #fff;
+		background-color: #000;
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+	}
+	
+	.toolLeft ul li a:hover span {
+		/*color: #72d0eb;*/
+		color: #fff;
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+	}
+	
+	.toolLeft .glyphicon {
+		padding: 0 10px;
+		-webkit-transition: all 0.2s;
+		-moz-transition: all 0.2s;
+		-ms-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+	}

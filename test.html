@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/toolLeft.css" />
+		<link rel="stylesheet" type="text/css" href="css/toolHead.css" />
+		<link rel="stylesheet" type="text/css" href="css/toolRight.css" />
+		<link rel="stylesheet" type="text/css" href="css/all.css" />
+
+	</head>
+
+	<body>
+
+		<div class="toolHead">
+
+			<a href="" class="title">Lorem ipsum</a>
+
+			<ul class="user_tool">
+
+				<li>
+					<a href="">
+						<span class="glyphicon glyphicon-envelope"></span>
+						<span class="te">信息</span>
+						<span class="label label-danger">1</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="glyphicon glyphicon-envelope"></span>
+						<span class="te">信息</span>
+						<span class="label label-danger">1</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="glyphicon glyphicon-envelope"></span>
+						<span class="te">lorem</span>
+						<span class="label label-danger">1</span>
+					</a>
+				</li>
+
+			</ul>
+
+		</div>
+
+		<div class="toolLeft">
+
+			<ul>
+
+				<li>
+					<a href="">
+						<span class="glyphicon glyphicon-home"></span>首页
+					</a>
+				</li>
+				<li onclick="info()">
+					<a href="#">
+						<span class="glyphicon glyphicon-list"></span>学生信息管理系统
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="glyphicon glyphicon-bullhorn"></span>添加学生信息
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="glyphicon glyphicon-check"></span>Lorem
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="glyphicon glyphicon-cog"></span>ipsum
+					</a>
+				</li>
+			</ul>
+
+		</div>
+
+		<div class="toolRight">
+
+			<div id="mb" class="mb"></div>
+
+		</div>
+
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common-scripts.js" type="text/javascript" charset="utf-8"></script>
+
+		<script type="text/javascript">
+			mb1 = $('#mb');
+
+			function info() {
+
+				var str = "<div class='panel panel-default'>";
+				str += "<div class='panel-heading'>学生信息</div>";
+				str += "<div class='panel-body'>";
+				str += "<p>这里是学生信息显示表格</p>";
+				str += "</div>";
+				str += "<table class='table table-hover table-bordered'>";
+				str += "<tr>";
+				str += "<th>学号</th>";
+				str += "<th>写生姓名</th>";
+				str += "<th>学生身份证</th>";
+				str += "</tr>";
+				for(var i = 0; i < 10; i++) {
+
+					str += "<tr>";
+					str += "<td>" + i + "</td>";
+					str += "<td>测试人" + i + "</td>";
+					str += "<td>" + (i * 3) + "" + i + "</td>";
+					str += "</tr>";
+				}
+
+				str += "</table>";
+				str += "</div>";
+				mb1.html(str);
+			}
+		</script>
+	</body>
+
+</html>

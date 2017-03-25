@@ -1,0 +1,54 @@
+.nav_tool {
+	position: fixed;
+	width: 500px;
+}
+
+.nav_tool ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav_tool li {
+	list-style: none;
+	float: left;
+}
+
+.nav_tool .title {
+	font-size: 22px;
+	text-decoration: none;
+	padding: 0 20px;
+	display: block;
+	color: #fff;
+	line-height: 58px;
+	margin: 0 80px 0 0;
+}
+
+.nav_tool .title_icon {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+	padding: 0;
+	position: relative;
+	top: 10px;
+	border: solid 1px #fff;
+	border-radius: 5px;
+}
+
+.nav_tool .title_icon:hover {
+	background-color: #fff;
+}
+
+.nav_tool .title_icon .glyphicon {
+	color: #666;
+	text-decoration: none;
+	display: block;
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	text-align: center;
+	line-height: 38px;
+}
+
+
+/*<!-- <ul class="nav_tool"> <li class="title_li"> <a href="" class="title">Lorem ipsum</a> </li> <li class="title_icon"> <a href="" class="glyphicon glyphicon-envelope"> <span class="label label-warning"> 45 </span> </a> </li> <li class="title_icon"> <a href="" class="glyphicon glyphicon-bullhorn"> <span class="label label-danger"> 20 </span> </a> </li> <li class="title_icon"> <a href="" class="glyphicon glyphicon-th-large"> <span class="label label-success"> 210 </span> </a> </li> </ul> -->*/
